@@ -5,19 +5,19 @@ body{
     color: white;
 
 }
-h2{
+.highlight-color{
     color:#feee6e;
+}
+h2{
     text-transform: capitalize;
     text-decoration: underline;
 }
 h3{
-    color:#feee6e;
     text-decoration: underline;
     margin-top: 0px;
     text-transform:capitalize;
 }
 strong{
-    color:#feee6e;
     text-transform: uppercase;
 }
 img{
@@ -34,9 +34,6 @@ article{
 }
 section{
     margin: 20px;
-}
-a{
-    color: #feee6e;
 }
 fieldset{
     border: 5px solid white;
@@ -81,7 +78,6 @@ input[type=checkbox], input[type=radio]{
 }
 legend{
     font-size: 20px;
-    color: yellow;
     text-align: center;
     text-transform: capitalize;
 }
