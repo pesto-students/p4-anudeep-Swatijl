@@ -103,8 +103,11 @@ button:hover{
    article{
     display: block;
    }
-   form{
+   .grid-form{
     display: block;
+   }
+   button{
+    width: 100%;
    }
    img{
     height: 200px;
