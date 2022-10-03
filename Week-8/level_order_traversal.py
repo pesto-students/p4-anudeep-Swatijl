@@ -18,3 +18,5 @@ def levelOrder(self, root):
             res.append(level)
         
     return res
+
+#time complexity --> O(n^2)

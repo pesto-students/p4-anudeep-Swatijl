@@ -8,3 +8,5 @@ def maxDepth(self, root):
             stack.append([node.left, depth + 1])
             stack.append([node.right, depth + 1])
     return level
+
+#time complexity --> O(n)

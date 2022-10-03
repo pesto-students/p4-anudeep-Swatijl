@@ -1,4 +1,4 @@
-def isValidBST(self, root):
+def isValidBST(root):
     def isValid(minVal, node, maxVal):
         if not node:
             return True
@@ -6,3 +6,5 @@ def isValidBST(self, root):
             return False
         return (isValid(minVal, node.left, node.val) and isValid(node.val, node.right, maxVal))
     return isValid(float('-inf'), root, float('inf'))
+
+#time complexity --> O(n)
