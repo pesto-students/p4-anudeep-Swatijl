@@ -1,0 +1,14 @@
+table{
+  border: 1px solid;
+  margin-top: 10px;
+  width: 100%;
+}
+th, td {
+  border: 1px solid;
+  padding: 10px;
+}
+.center-all{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
